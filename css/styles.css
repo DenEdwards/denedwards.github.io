@@ -146,6 +146,10 @@ nav{float:right;}
   color: #404040;
 }
 
+.container ul li a:visited {
+  color: #404040;
+}
+
 .container ul li a:hover {
   border: 1px solid #404040;
   border-top: 0;
