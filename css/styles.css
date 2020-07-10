@@ -404,17 +404,4 @@ footer p{
   .logo h1{
     color: #404040;
   }
-  .title{
-    margin-left: 2%;
-  }
-  body {
-    background-color: blue;
-    color: white;
-  }
-}
-@media screen and (max-width: 600px) {
-  body {
-    background-color: olive;
-    color: white;
-  }
 }
