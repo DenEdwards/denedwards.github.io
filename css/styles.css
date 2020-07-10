@@ -114,9 +114,6 @@ h2{
   background-color: white;
   z-index: 500;
 }
-
-nav{float:right;}
-
 .logo{
   flex-grow: 2;
 }
