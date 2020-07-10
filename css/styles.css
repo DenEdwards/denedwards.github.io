@@ -123,7 +123,7 @@ nav{float:right;}
 
 .logo h1{
   margin: 0;
-  padding-top: 10px;
+  padding-top: 8px;
   padding-left: 20px;
 }
 
@@ -138,7 +138,7 @@ nav{float:right;}
 
 .container ul li a{
   text-decoration: none;
-  padding: 17px 10px;
+  padding: 30px 10px;
   font-size: 25px;
 }
 .container a:visited{
@@ -150,6 +150,7 @@ nav{float:right;}
   border-top: 0;
   border-bottom: 0;
   color: #404040;
+  font-family: sans-serif;
 }
 
 .container ul li a:active {
@@ -265,6 +266,7 @@ nav{float:right;}
 }
 .skills-category ul li{
   width: 150px;
+  font-family: sans-serif;
 }
 .skills-category-item{
   font-size: 22px;
