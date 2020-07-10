@@ -20,7 +20,7 @@ ScrollReveal({
   reset: true,
   easing: 'cubic-bezier(.694,0,.335,1)',
   scale: 1,
-  viewFactor: 0.10,
+  viewFactor: 0.05,
 }).reveal('.projects');
 
 //Get the date
