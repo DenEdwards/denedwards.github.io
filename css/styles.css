@@ -138,7 +138,7 @@ nav{float:right;}
 
 .container ul li a{
   text-decoration: none;
-  padding: 30px 10px;
+  padding: 19px 10px;
   font-size: 29px;
   font-family: sans-serif;
 }
@@ -212,9 +212,9 @@ nav{float:right;}
   height: 310px;
   width: 310px;
   border-radius: 50%;
-  animation: colorchange 5s linear 1s infinite; /* animation-name followed by duration in seconds*/
+  animation: colorchange 3s linear 1s infinite; /* animation-name followed by duration in seconds*/
      /* you could also use milliseconds (ms) or something like 2.5s */
-  -webkit-animation: colorchange 5s linear 0s infinite alternate; /* Chrome and Safari */
+  -webkit-animation: colorchange 3s linear 0s infinite alternate; /* Chrome and Safari */
 }
 .bold{
   font-weight: bold;
