@@ -28,7 +28,7 @@ h2{
   border: 2px solid #e85326;
   background-color: #e85326;
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   flex-grow: 1;
   height: auto;
   padding: 18px;
@@ -38,7 +38,7 @@ h2{
   border: 2px solid #fccc39;
   background-color: #fccc39;
   color: #3474a7;
-  font-size: 16px;
+  font-size: 20px;
   flex-grow: 1;
   height: auto;
   padding: 18px;
@@ -48,7 +48,7 @@ h2{
   border: 2px solid #049ce4;
   background-color: #049ce4;
   color: #0474bc;
-  font-size: 16px;
+  font-size: 20px;
   flex-grow: 1;
   height: auto;
   padding: 18px;
@@ -58,7 +58,7 @@ h2{
   border: 2px solid #f3db4c;
   background-color: #f3db4c;
   color: black;
-  font-size: 16px;
+  font-size: 20px;
   flex-grow: 1;
   height: auto;
   padding: 18px;
@@ -68,7 +68,7 @@ h2{
   border: 2px solid #58c1ed;
   background-color: #58c1ed;
   color: #196493;
-  font-size: 16px;
+  font-size: 20px;
   flex-grow: 1;
   height: auto;
   padding: 18px;
@@ -78,7 +78,7 @@ h2{
   border: 2px solid #2f047f;
   background-color: #2f047f;
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   flex-grow: 1;
   height: auto;
   padding: 18px;
@@ -88,7 +88,7 @@ h2{
   border: 2px solid #60d3f1;
   background-color: #60d3f1;
   color: black;
-  font-size: 16px;
+  font-size: 20px;
   flex-grow: 1;
   height: auto;
   padding: 18px;
@@ -98,7 +98,7 @@ h2{
   border: 2px solid #3c873a;
   background-color: #3c873a;
   color: black;
-  font-size: 16px;
+  font-size: 20px;
   flex-grow: 1;
   height: auto;
   padding: 18px;
@@ -133,13 +133,13 @@ nav{float:right;}
   color: gray;
   text-align: center;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .container ul li a{
   text-decoration: none;
   padding: 30px 10px;
-  font-size: 25px;
+  font-size: 29px;
   font-family: sans-serif;
 }
 .container a:visited{
@@ -159,7 +159,7 @@ nav{float:right;}
 }
 
 .site{
-  font-size: 22px;
+  font-size: 26px;
   display: flex;
 }
 /**************Border Line**************/
@@ -167,7 +167,7 @@ nav{float:right;}
   border-right: 2px solid #404040;
   width: 20px;
   position: relative;
-  padding-left: 10px;
+  padding-left: 60px;
   top: -10px;
   animation: colorchange 30s linear 1s infinite; /* animation-name followed by duration in seconds*/
      /* you could also use milliseconds (ms) or something like 2.5s */
@@ -269,7 +269,7 @@ nav{float:right;}
   font-family: sans-serif;
 }
 .skills-category-item{
-  font-size: 22px;
+  font-size: 26px;
   color: #36454F;
 }
 /**************PROJECTS***************/
@@ -344,6 +344,7 @@ nav{float:right;}
   color: #007bff;
   flex-grow: 1;
   width: 100px;
+  margin-left: 17%;
 }
 
 .container-content{
@@ -371,7 +372,7 @@ footer{
   bottom: 0;
   width: 100%;
   background-color: white;
-  font-size: 22px;
+  font-size: 26px;
   display: flex;
   justify-content: space-around;
 }
