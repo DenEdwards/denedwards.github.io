@@ -140,6 +140,7 @@ nav{float:right;}
   text-decoration: none;
   padding: 30px 10px;
   font-size: 25px;
+  font-family: sans-serif;
 }
 .container a:visited{
   color: #404040;
@@ -150,7 +151,6 @@ nav{float:right;}
   border-top: 0;
   border-bottom: 0;
   color: #404040;
-  font-family: sans-serif;
 }
 
 .container ul li a:active {
