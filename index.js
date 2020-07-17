@@ -27,5 +27,5 @@ ScrollReveal({
 function year(){
   const date = new Date();
   const year = date.getFullYear();
-  $('#year').innerHtml = year;
+  document.getElementById('year').innerText = year;
 }
