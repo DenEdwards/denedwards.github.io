@@ -16,8 +16,8 @@ ScrollReveal({
 }).reveal('.skills');
 
 //Get the date
-function year(){
+(function (){
   const date = new Date();
   const year = date.getFullYear();
   document.getElementById('year').innerText = year;
-}
+})()
