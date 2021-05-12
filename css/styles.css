@@ -103,6 +103,16 @@ h2{
   height: auto;
   padding: 18px;
 }
+
+#laravel.btn {
+  border: 2px solid #f72b1e;
+  background-color: #f72b1e;
+  color: #fff;
+  font-size: 20px;
+  flex-grow: 1;
+  height: auto;
+  padding: 18px;
+}
 /**************NAVBAR***************/
 .container{
   overflow:auto;
