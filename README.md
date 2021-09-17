@@ -5,7 +5,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/DenEdwards/denedwards.github.io">
-    <img src="/static/assets/images/ReadMePic.PNG" alt="Logo" border-radius="7px" width="500" height="auto">
+    <img src="./assets/images/ReadMePic.PNG" alt="Logo" border-radius="7px" width="500" height="auto">
   </a>
 
   <p align="center">
@@ -17,7 +17,7 @@
 
 ## Contact
 
-Denzel Edwards - Denzelsedwards@gmail.com
+Denzel Edwards - https://www.linkedin.com/in/denzel-edwards/
 
 Website: [https://denedwards.github.io/](https://denedwards.github.io/)
 
