@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="sr">
+
   <head>
     <meta charset="utf-8">
     <title>Denzel Edwards</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="./images/logo-clear.png" type="image/icon type">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;700&display=swap"
+      rel="stylesheet">
+    <link rel="icon" href="./assets/images/logo-clear.png" type="image/icon type">
     <script src="https://unpkg.com/scrollreveal"></script>
   </head>
+
   <body>
     <div class="container" id="navbar">
       <div class="logo">
@@ -22,326 +26,178 @@
       </nav>
     </div>
     <div class="site">
-      <div class="two-lines">
+      <div class="left-border">
       </div>
       <div class="main-body">
-        <div class="opening" id="intro">
+        <div class="section" id="intro">
           <div class="intro-wr">
-            <div class="intro-title">
-              <h1>Hello!</h1>
-            </div>
-            <div class="intro-p">
-              <h2>I'm <a class="bold" href="DenzelEdwardsResume.pdf">Denzel Edwards</a>, a front-end developer dedicated to creating beautiful and immersive websites and applications.</h2>
-            </div>
-            <div class="intro-contact">
-              <p>Get in touch: <a class="bold" href="mailto:Denzelsedwards@gmail.com" id="Contact">Denzelsedwards@gmail.com</a></p>
-            </div>
+            <h1>Hello!</h1>
+            <h2>I'm <a class="bold" href="./assets/DenzelEdwardsResume.pdf">Denzel Edwards</a>, a fullstack
+              developer dedicated to creating beautiful and immersive websites and applications.</h2>
+            <p>Get in touch: <a class="bold" href="mailto:Denzelsedwards@gmail.com"
+                id="Contact">Denzelsedwards@gmail.com</a></p>
           </div>
           <div class="intro-img">
             <div class="intro-color-circle">
-              <img src="./images/me-dark.jpg" alt="img">
+              <img src="./assets/images/me-dark.jpg" alt="img">
             </div>
           </div>
         </div>
-        <div class="intro background" id="background">
+        <div class="background" id="background">
           <div class="title">
             <h2>My Background</h2>
-            <h3><a href="DenzelEdwardsResume.pdf" class="bold resume">My Resume</a></h3>
-            <h3><a href="https://github.com/DenEdwards" class="bold resume">My Github</a></h3>
+            <h3><a href="./assets/DenzelEdwardsResume.pdf" class="bold highlight-left">My Resume</a></h3>
+            <h3><a href="https://github.com/DenEdwards" class="bold highlight-left">My Github</a></h3>
           </div>
           <div class="container-content">
-            <p>I recently graduated from Ryerson University with a degree in computer engineering and am currently the Lead Frontend Developer at <a class="bold" href="https://steamlabs.ca/">SteamLabs</a>, I enjoy being able to combine my artistic passion with my technical knowledge to create amazing websites.</p>
-              <p>My goal is to create websites and applications that are responsive, scalable and aesthetically pleasing.</p>
+            <p>I recently graduated from Ryerson University with a degree in computer engineering and am currently the
+              Lead Frontend Developer at <a class="bold" href="https://steamlabs.ca/">SteamLabs</a>, I enjoy being able
+              to combine my artistic passion with my technical knowledge to create amazing websites.</p>
+            <p>My goal is to create websites and applications that are responsive, scalable and aesthetically pleasing.
+            </p>
           </div>
         </div>
-        <div class="intro skills" id="skills">
-          <div class="title">
-            <h2>My Skills</h2>
-          </div>
-          <div class="container-content" id="skills-container">
-            <div class="skills-category">
-              <div class="skills-category-title">
-                <h3>Languages</h3>
-              </div>
-              <ul>
-                <li class="skills-category-item">JavaScript</li>
-                <li class="skills-category-item">HTML</li>
-                <li class="skills-category-item">CSS</li>
-                <li class="skills-category-item">Python</li>
-                <li class="skills-category-item">SQL</li>
-                <li class="skills-category-item">Java</li>
-              </ul>
-            </div>
-            <div class="skills-category">
-              <div class="skills-category-title">
-                <h3>Tools</h3>
-              </div>
-              <ul>
-                <li class="skills-category-item">Git & Github</li>
-                <li class="skills-category-item">Chrome Devtools</li>
-                <li class="skills-category-item">MongoDB</li>
-                <li class="skills-category-item">Postman</li>
-                <li class="skills-category-item">Wireframing</li>
-              </ul>
-            </div>
-            <div class="skills-category">
-              <div class="skills-category-title">
-                <h3>Frameworks, Libraries and Runtimes</h3>
-              </div>
-              <ul>
-                <li class="skills-category-item">JQuery</li>
-                <li class="skills-category-item">Node.js</li>
-                <li class="skills-category-item">React</li>
-                <li class="skills-category-item">p5.js</li>
-              </ul>
-            </div>
-          </div>
+        <div id="skills">
+          <h2 class="title">My Skills</h2>
+          <div id='skill-list'></div>
         </div>
-        <div class="intro projects" id="projects">
+        <div class="Projects" id="projects">
           <div class="title">
             <h2>My Projects</h2>
           </div>
-          <div class="container-content" id="projects-container">
-            <div class="project">
-              <h2><a href="https://inventor.city/ai/vision" class="bold-proj"> < AI Vision /></a></h2>
-              <img src="./images/AiVision.png" alt="AiVision">
-              <p>Learn how an AI vision recognition system works by finding its mistakes!</p>
-              <div class="buttons">
-                <div class="btn" id="react">
-                  React
+          <div class="projects-container">
+            <a href='https://inventor.city/ai/vision'>
+              <div class="overview">
+                <h1 class="overview-title">AI Vision</h1>
+                <div class="icon-group">
+                  <div class="icon" id="react">React</div>
+                  <div class="icon" id="aws">AWS</div>
+                  <div class="icon" id="css">CSS</div>
                 </div>
-                <div class="btn" id="aws">
-                  Amazon AWS
-                </div>
+                <span class='wrapper'>
+                  <div class="content">
+                    <h3>Learn how an AI vision recognition system works by finding its mistakes!</h3>
+                  </div>
+                  <div class="flap"><span class='before'
+                      style="background:  url('./assets/images/AiVision.png')"></span><span class='after'
+                      style="background: url('./assets/images/AiVision.png')"></span>
+                  </div>
+                </span>
               </div>
-            </div>
-            <div class="project">
-              <h2><a href="https://inventor.city/activity/sunglassesmd" class="bold-proj"> < Sunglasses /></a></h2>
-              <img src="./images/sunglasses.png" alt="sunglasses" style="border: 2px solid #000">
-              <p>Digitally design your own sunglasses. Get them laser cut to be ready to wear for any occasion!</p>
-              <div class="buttons">
-                <div class="btn" id="html">
-                  HTML
+            </a>
+            <a href='https://inventor.city/activity/sunglassesmd'>
+              <div class="overview">
+                <h1 class="overview-title">Sunglasses</h1>
+                <div class="icon-group">
+                  <div class="icon" id="html">HTML</div>
+                  <div class="icon" id="js">JS</div>
+                  <div class="icon" id="css">CSS</div>
                 </div>
-                <div class="btn" id="css">
-                  CSS
-                </div>
-                <div class="btn" id="js">
-                  JS
-                </div>
-                <div class="btn" id="laravel">
-                  LARAVEL
-                </div>
+                <span class='wrapper'>
+                  <div class="content">
+                    <h3>Digitally design your own sunglasses. Get them laser cut to be ready to wear for any occasion!
+                    </h3>
+                  </div>
+                  <div class="flap"><span class='before'
+                      style="background-image: url('./assets/images/sunglasses.png')"></span><span class='after'
+                      style="background-image: url('./assets/images/sunglasses.png')"></span>
+                  </div>
+                </span>
               </div>
-            </div>
-            <div class="project">
-              <h2><a href="https://cinnamoneatery.herokuapp.com/" class="bold-proj"> < Cinnamon /></a></h2>
-              <img src="./images/cinnamon.PNG" alt="cinnamon">
-              <p>A cafe website using Mongo, Express, React and Node.</p>
-              <div class="buttons">
-                <div class="btn" id="react">
-                  React
+            </a>
+            <a href="https://which-weather-app.herokuapp.com/">
+              <div class="overview">
+                <h1 class="overview-title">Which Weather</h1>
+                <div class="icon-group">
+                  <div class="icon" id="html">HTML</div>
+                  <div class="icon" id="js">JS</div>
+                  <div class="icon" id="css">CSS</div>
+                  <div class="icon" id="node">Node</div>
                 </div>
-                <div class="btn" id="css">
-                  CSS
-                </div>
-                <div class="btn" id="js">
-                  JS
-                </div>
-                <div class="btn" id="node">
-                  Node
-                </div>
+                <span class='wrapper'>
+                  <div class="content">
+                    <h3>An app that let's you browse the weather of cities around the world.</h3>
+                  </div>
+                  <div class="flap"><span class='before'
+                      style="background-image: url('./assets/images/weather.png')"></span><span class='after'
+                      style="background-image: url('./assets/images/weather.png')"></span>
+                  </div>
+                </span>
               </div>
-            </div>
-            <div class="project">
-              <h2><a href="https://planet-store.herokuapp.com/" class="bold-proj"> < Planet Store /></a></h2>
-              <img src="./images/planetStore.PNG" alt="planetStore">
-              <p>A store made using MERN stack where you can purchase different planets.</p>
-              <div class="buttons">
-                <div class="btn" id="react">
-                  React
+            </a>
+            <a href="https://predict-a-pie.glitch.me/">
+              <div class="overview">
+                <h1 class="overview-title" style="color: #6d6d6d;">Predict A Pie</h1>
+                <div class="icon-group">
+                  <div class="icon" id="react">React</div>
+                  <div class="icon" id="scss">SCSS</div>
+                  <div class="icon" id="node">Node</div>
                 </div>
-                <div class="btn" id="css">
-                  CSS
-                </div>
-                <div class="btn" id="js">
-                  JS
-                </div>
-                <div class="btn" id="node">
-                  Node
-                </div>
+                <span class='wrapper'>
+                  <div class="content">
+                    <h3>In this activity, you can build a real, working Neural Network.</h3>
+                  </div>
+                  <div class="flap"><span class='before'
+                      style="background-image: url('./assets/images/predictApie.png')"></span><span class='after'
+                      style="background-image: url('./assets/images/predictApie.png')"></span>
+                  </div>
+                </span>
               </div>
-            </div>
-            <div class="project">
-              <h2><a href="https://which-weather-app.herokuapp.com/" class="bold-proj"> < Which Weather /></a></h2>
-              <img src="./images/weather.png" alt="weather">
-              <p>An app that let's you checkout the weather of cities around the world.</p>
-              <div class="buttons">
-                <div class="btn" id="html">
-                  HTML
+            </a>
+            <a href="https://glitch.com/edit/#!/chatbot-engine-en?path=README.md%3A1%3A0">
+              <div class="overview">
+                <h1 class="overview-title">Chatbot Engine</h1>
+                <div class="icon-group">
+                  <div class="icon" id="html">HTML</div>
+                  <div class="icon" id="js">JS</div>
+                  <div class="icon" id="css">CSS</div>
                 </div>
-                <div class="btn" id="css">
-                  CSS
-                </div>
-                <div class="btn" id="js">
-                  JS
-                </div>
-                <div class="btn" id="node">
-                  Node
-                </div>
+                <span class='wrapper'>
+                  <div class="content">
+                    <h3>An AI chatbot where you can talk with any of the built-in or
+                      customizable characters.</h3>
+                  </div>
+                  <div class="flap"><span class='before'
+                      style="background-image: url('./assets/images/chatbot.png')"></span><span class='after'
+                      style="background-image: url('./assets/images/chatbot.png')"></span>
+                  </div>
+                </span>
               </div>
-            </div>
-            <div class="project">
-              <h2><a href="https://denedwards.github.io/Cyber-Clock/" class="bold-proj"> < Cyber Clock /></a></h2>
-              <img src="./images/clock.png" alt="cyber clock">
-              <p>A matrix themed clock that also contains a timer and Pomodoro study timer.</p>
-              <div class="buttons">
-                <div class="btn" id="html">
-                  HTML
+            </a>
+            <a href="https://github.com/DenEdwards">
+              <div class="overview">
+                <h1 class="overview-title">My Github</h1>
+                <div class="icon-group">
+                  <div class="icon" id="git">Git</div>
+                  <div class="icon" id="github">G</div>
                 </div>
-                <div class="btn" id="css">
-                  CSS
-                </div>
-                <div class="btn" id="js">
-                  JS
-                </div>
+                <span class='wrapper'>
+                  <div class="content">
+                    <h3>There's more to see at my Github!</h3>
+                  </div>
+                  <div class="flap"><span class='before'
+                      style="background-image: url('./assets/images/github.png')"></span><span class='after'
+                      style="background-image: url('./assets/images/github.png')"></span>
+                  </div>
+                </span>
               </div>
-            </div>
-            <div class="project">
-              <h2><a href="https://denedwards.github.io/copyMe/" class="bold-proj"> < Copy Me! /></a></h2>
-              <img src="./images/copyMe.PNG" alt="copy me">
-              <p>A memory game where the player has to remember the moves made by the computer to advance to the next level. Made using CSS, HTML and JavaScript.</p>
-              <div class="buttons">
-                <div class="btn" id="html">
-                  HTML
-                </div>
-                <div class="btn" id="css">
-                  CSS
-                </div>
-                <div class="btn" id="js">
-                  JS
-                </div>
-              </div>
-            </div>
-            <div class="project">
-              <h2><a href="https://github.com/DenEdwards/Web-Authentication-and-Security" class="bold-proj">< Secrets /></a></h2>
-              <img src="./images/secrets.PNG" alt="secrets">
-              <p>A website that allows users to share their secrets anonymously, where secrets can only be seen when a user is signed up or logged in.</p>
-              <div class="buttons">
-                <div class="btn" id="node">
-                  Node
-                </div>
-                <div class="btn" id="html">
-                  HTML
-                </div>
-                <div class="btn" id="css">
-                  CSS
-                </div>
-                <div class="btn" id="js">
-                  JS
-                </div>
-              </div>
-            </div>
-            <div class="project">
-              <h2><a href="https://github.com/DenEdwards/Cafeteria" class="bold-proj">< Bites Before Bytes /></a></h2>
-              <img src="./images/bites.PNG" alt="bites">
-              <img src="./images/bites2.PNG" alt="bites2">
-              <p>Online Cafeteria Mock up using React.</p>
-              <div class="buttons">
-                <div class="btn" id="react">
-                  React
-                </div>
-                <div class="btn" id="html">
-                  HTML
-                </div>
-                <div class="btn" id="css">
-                  CSS
-                </div>
-                <div class="btn" id="js">
-                  JS
-                </div>
-              </div>
-            </div>
-            <div class="project">
-              <h2><a href="https://my-list-today.herokuapp.com/" class="bold-proj">< To Do List /></a></h2>
-              <img src="./images/todo.PNG" alt="todo">
-              <p>Dynamic to do list.</p>
-              <div class="buttons">
-                <div class="btn" id="node">
-                  Node
-                </div>
-                <div class="btn" id="html">
-                  HTML
-                </div>
-                <div class="btn" id="css">
-                  CSS
-                </div>
-                <div class="btn" id="js">
-                  JS
-                </div>
-              </div>
-            </div>
-            <div class="project nopic">
-              <h2><span class="bold-proj">< Smart City /></a></h2>
-              <p>A Smart City Platform that incorporates a smart waste management application.</p>
-              <div class="buttons-np">
-                <div class="btn" id="python">
-                  Python
-                </div>
-                <div class="btn" id="html">
-                  HTML
-                </div>
-                <div class="btn" id="css">
-                  CSS
-                </div>
-              </div>
-            </div>
-            <div class="project nopic">
-              <h2><a href="https://github.com/DenEdwards/Wiki-API" class="bold-proj">< Wiki API /></a></h2>
-              <p>An encyclopedia API that allows the user of the API to access a local wiki database through express post, get, delete, put and patch commands.</p>
-              <div class="buttons-np">
-                <div class="btn" id="node">
-                  Node
-                </div>
-                <div class="btn" id="html">
-                  HTML
-                </div>
-                <div class="btn" id="css">
-                  CSS
-                </div>
-                <div class="btn" id="js">
-                  JS
-                </div>
-              </div>
-            </div>
-            <div class="project nopic">
-              <h2><a href="https://github.com/DenEdwards/CPS888_Team2" class="bold-proj">< Online Cafeteria /></a></h2>
-              <p>Online Cafeteria website made with ASP.net.</p>
-              <div class="buttons-np">
-                <div class="btn" id="asp">
-                  ASP.NET
-                </div>
-                <div class="btn" id="csharp">
-                  C#
-                </div>
-              </div>
-            </div>
-            <div class="project nopic">
-              <h2><a href="https://github.com/DenEdwards" class="bold-proj"><span class="git"><</span>There's more to see at my Github<span class="git">></span></a></h2>
-            </div>
+            </a>
           </div>
         </div>
       </div>
-    </div>
-    <footer class="footer">
-      <p>Created by Denzel Edwards © <span id="year"></span></p>
-      <div class="footer-link">
-        <a href="https://ca.linkedin.com/in/denzel-edwards-093927170?trk=people-guest_profile-result-card_result-card_full-click">LinkedIn</a>
-        <a href="https://github.com/DenEdwards">Github</a>
-        <a href="mailto:Denzelsedwards@gmail.com">Email</a>
-      </div>
-    </footer>
-    <script type="text/javascript" src="index.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <footer class="footer">
+        <p>Created by Denzel Edwards © <span id="year"></span></p>
+        <div class="footer-link">
+          <a
+            href="https://ca.linkedin.com/in/denzel-edwards-093927170?trk=people-guest_profile-result-card_result-card_full-click"><img
+              src="./assets/images/icons/linkdin.jpg" alt="img"></a>
+          <a href="https://github.com/DenEdwards"><img src="./assets/images/icons/github.jpg" alt="img"></a>
+          <a href="mailto:Denzelsedwards@gmail.com">📧</a>
+        </div>
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="./index.js"></script>
   </body>
+
 </html>
